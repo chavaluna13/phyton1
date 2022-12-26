@@ -1,0 +1,25 @@
+def suma(num1, num2, num3):
+  return num1 + num2 + num3
+
+def main():
+  resultado = suma(1, 2, 3)
+  print(resultado)
+
+if __name__ == "__main__":
+  main()
+  
+  Segunda Parte
+  class Coche:
+  def __init__(self, puertas):
+    self.puertas = puertas
+  
+  def añadir_puerta(self):
+    self.puertas += 1
+
+def main():
+  mi_coche = Coche(4)
+  mi_coche.añadir_puerta()
+  print(mi_coche.puertas)
+
+if __name__ == "__main__":
+  main()
